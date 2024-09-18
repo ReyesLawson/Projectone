@@ -104,3 +104,8 @@ h4{
 .nav-link{
     color: blanchedalmond;
 }
+.map{
+    justify-content: center;
+    align-items: center;
+    
+}
