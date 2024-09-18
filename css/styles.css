@@ -6,11 +6,12 @@
    
    
 }
-.carousel-bg{
+.carousel-container-fluid{
     margin: 0;
     background-size: cover;
     background-position: center center;
     background-color: rgb(118, 134, 102);
+    display: flex;
 }
     
 
@@ -19,27 +20,20 @@
    height: 100%;
    margin: 0 auto;
 }
+
 .carousel-images{
     width: 100%
 
 }
 
-div{
-    text-align: center;
-
-}
-p{
+.intro-container{
+    color: blanchedalmond;
+    background-color: rgb(118, 134, 102);
     margin: 0;
     font-family: "Rouge Script", cursive;
     font-size: 10mm;
-    background-color: rgb(118, 134, 102);
-    color:blanchedalmond;
-}
-.bg-color{
-    color: blanchedalmond;
-    background-color: rgb(118, 134, 102);
-    margin: 0 auto;
-
+    text-align: center;
+    padding-top: 20mm;
 }
 
 .rouge-script-regular {
@@ -79,6 +73,7 @@ h3{
     color:blanchedalmond;
     margin: 0;
     font-size: 20mm;
+    padding-top: 20mm;
     
 
     
@@ -92,6 +87,7 @@ h4{
     color:blanchedalmond;
     margin: 0;
     font-size: 20mm;
+    padding:20mm;
 }
 .nav-bar{
    color:blanchedalmond;
@@ -104,8 +100,45 @@ h4{
 .nav-link{
     color: blanchedalmond;
 }
-.map{
+
+.we_offer-container-fluid{
+    margin: 0;
+    font-family: "Rouge Script", cursive;
+    font-size: 10mm;
+    background-color: rgb(118, 134, 102);
+    color:blanchedalmond;
+    width: 100%;
+    text-align:center;
     justify-content: center;
-    align-items: center;
     
+}
+.intro-container-fluid{
+    margin: 0;
+    font-family: "Rouge Script", cursive;
+    font-size: 10mm;
+    background-color: rgb(118, 134, 102);
+    color:blanchedalmond;
+    width: 100%;
+    text-align:center;
+    justify-content: center;
+}
+
+.map-container-fluid{
+    margin:0;
+    display:flex;
+    background-color: rgb(118, 134, 102);
+    justify-content: center;
+    
+
+}
+h5{
+    text-align: center;
+    align-items: center;
+    font-family: "Rouge Script", cursive;
+    background-color: rgb(118, 134, 102);
+    color:blanchedalmond;
+    margin: 0;
+    font-size: 20mm;
+    padding:20mm;
+    width:100%;
 }
