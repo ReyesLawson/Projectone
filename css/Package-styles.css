@@ -133,9 +133,27 @@ h3{
     width: calc(100% / 3 - 150px);
     margin: 65px;
     margin-top: 0;
-    
-   
 }
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
 footer{
-    background-color: rgb(118, 134, 102);
+    background-color: rgb(118, 134, 102);  
+    align-items: center;
+    justify-content: space-evenly;
+    justify-content: center;
+    margin: 0;
+    text-align: center;
 }
+    
+.social-media{
+    margin: 0;
+    justify-content: center;
+}
+.row{
+     padding-top: 30px;
+    padding-bottom: 15px;
+} 
