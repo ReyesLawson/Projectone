@@ -1,0 +1,5 @@
+1) As a user I want to be able to see what your company has to offer and be able to easily contact you for more information.
+
+2)As a user I would like my company to be able to view photos of your rental options.
+
+3) As a user of the site I would like it to be simple to navigate and to be able to find you on social media.
