@@ -9,6 +9,19 @@ body{
     font-size: 22px;
     flex-direction: column;
     margin: 0 auto;
+    font-family: "Rouge Script", cursive;
+}
+
+p{
+    font-family: "Rouge Script", cursive;
+    display: flex;
+    text-align: center ;
+    margin: 20px;
+    border-radius: 5px;
+    color: blanchedalmond;
+}
+a{
+    text-decoration: none;
 }
 
 .body-text {
@@ -19,23 +32,41 @@ body{
     text-align: center;
 }
 
+.nav-bar{
+    color:blanchedalmond;
+    background-color: rgb(118, 134, 102);
+}
+.nav-item{
+    color: blanchedalmond;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+.nav-link{
+    color: blanchedalmond;
+}
 .column-styles{
     border: 1px solid #ffebcdc4;
     padding: 1rem;
     margin:.5rem;
     width: 30%;
-    align-items: center;
+    justify-content: center;
+    
 }
 h1{
     text-align: left;
+    margin: 0;
+    font-family: "Rouge Script", cursive; 
+    color: blanchedalmond;
+    font size: 2rem;
 
 }
-h2,h3{
+h2,h3,h4,h5{
     color:blanchedalmond;
     margin: 0;
     font-family: "Rouge Script", cursive; 
     text-align: center;
-    font-size: 4rem;
+    font-size: 6rem;
+   
     
 }
 .titles{
@@ -51,6 +82,11 @@ h2,h3{
     margin: 0;
 
 }
+.contact-title{
+    color:blanchedalmond;
+    padding-top: 30px;
+    
+}
 
 .package-head-bg-2{
     width:100%;
@@ -60,17 +96,18 @@ h2,h3{
     background-position: center center;
     margin: 0 auto;
     background-attachment: fixed;
+    
 }
 
 .package-head-bg-1{
     width:100%;
-    height:400px;
+    height:350px;
     background-image: url(/images/flowers.jpg);
     background-size: cover;
     background-position: center center;
     margin: 0%;
     background-attachment: fixed;
-
+    
 }
 
 .bg-flowers-1 {
@@ -89,19 +126,14 @@ h2,h3{
     height: 300px;
     align-items: center;
     width: 100%;
-    height: fit-content;
-    ;
-   
-
-    
+    margin: 0 auto;
+    justify-content: center;
 }
 
 .package-image1{
     width:100%;
     display: flex;
     align-items: center;
-    /* width: calc(100% / 3 - 150px); */
-    /* margin: 65px; */
     margin-top: 0;
 }
 
@@ -112,4 +144,75 @@ footer{
     margin: 0;
     text-align: center;
     font-size: 1rem;
+    font-family: "Rouge Script", cursive; 
+}
+.container-fluid{
+    
+    justify-content: center;
+    
+}
+.index-container-fluid{
+    margin: 0;
+    font-family: "Rouge Script", cursive;
+    background-color: rgb(118, 134, 102);
+    color:blanchedalmond;
+    width: 100%;
+    text-align:center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.contact-box-container{
+    margin:0 auto;
+    width:50%;
+    
+}
+.mb-3{
+    text-align: center;
+    color:blanchedalmond;
+    font-family: "Rouge Script", cursive; 
+    font-style: "bold";
+    font-size: 2.5rem;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+.social-media{
+    margin: 0;
+    justify-content: center;
+}
+.carousel-inner{
+    width: 50%;
+    margin: 0 auto;
+    
+ }
+ .head-bg{
+    width:100%;
+    height: 500px;
+    background-image: url(/images/inside.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0%;
+    background-attachment: fixed;
+}
+.photo{
+    max-width: 300px;
+    max-height: 300px;
+    min-width: 100px;
+    min-height: 100px;
+    margin: 0;
+    display: block;
+    margin-left: 25%;
+}
+.photo2{
+    max-height: 300px;
+    max-width: 300px ;
+    margin: 0;
+    display: block;
+   margin-left: 25%;
+   min-width: 100px;
+    min-height: 100px;
 }
