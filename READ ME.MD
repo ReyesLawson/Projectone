@@ -1,3 +1,5 @@
+Contributor - Reyes Lawson
+
 - Technologies uesed CSS, bootstrap, HTML, google text , draw io.
 
 - Website developed to use for advertising a Venue for weddings.Can be used navigate to see what is offered. Able to contact Venue through website.
