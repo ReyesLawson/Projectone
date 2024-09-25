@@ -57,7 +57,7 @@ h1{
     margin: 0;
     font-family: "Rouge Script", cursive; 
     color: blanchedalmond;
-    font size: 2rem;
+    font-size: 2rem;
 
 }
 h2,h3,h4,h5{
@@ -145,11 +145,10 @@ footer{
     text-align: center;
     font-size: 1rem;
     font-family: "Rouge Script", cursive; 
+    background-color: rgb(91, 102, 81);
 }
 .container-fluid{
-    
-    justify-content: center;
-    
+    justify-content:center;
 }
 .index-container-fluid{
     margin: 0;
