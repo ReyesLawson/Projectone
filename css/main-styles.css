@@ -48,7 +48,6 @@ a{
     border: 1px solid #ffebcdc4;
     padding: 1rem;
     margin:.5rem;
-    width: 30%;
     justify-content: center;
     
 }
@@ -204,14 +203,14 @@ ul{
     min-height: 100px;
     margin: 0;
     display: block;
-    margin-left: 25%;
+    
 }
 .photo2{
     max-height: 300px;
     max-width: 300px ;
     margin: 0;
     display: block;
-   margin-left: 25%;
+   
    min-width: 100px;
     min-height: 100px;
 }
