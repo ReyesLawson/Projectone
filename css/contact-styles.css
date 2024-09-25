@@ -9,6 +9,9 @@ body{
 a{
     text-decoration: none;
 }
+p{
+   font-family: "Rouge Script", cursive;
+}
 
 .body-text {
     color: blanchedalmond;
@@ -43,7 +46,7 @@ h1{
 .container-fluid{
     margin:0;
     background-color: rgb(118, 134, 102);
-    font-family: "Rouge Script", cursive;
+    
 }
 .contact-box-container{
     margin:0 auto;
@@ -55,8 +58,8 @@ h1{
     text-align: center;
     color:blanchedalmond;
     font-family: "Rouge Script", cursive; 
-    font-style: normal;
-    font-size: 10mm;
+    font-style: "bold";
+    font-size: 2.5rem;
     margin: 0;
     text-align: center;
     background-color: rgb(118, 134, 102);
